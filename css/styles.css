@@ -79,6 +79,11 @@ main #whatwedo {
   padding-bottom: 100px;
 }
 
+main #whatwedo h2 {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
 main #whatwedo article {
   width: 25vw;
   text-align: center;

@@ -33,10 +33,12 @@
 
     <main>
       <section id="whatwedo">
+        <h2>Wat wij doen</h2>
         <article>
           <i class="fas fa-cogs"></i>
           <h3>lorem ipsum</h3>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          <button type="button" name="button"></button>
         </article>
         <article>
           <i class="fas fa-cogs"></i>
