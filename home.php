@@ -22,14 +22,14 @@
     </header>
 
     <div class="nav">
-      <label for="toggle">&#9776;</label>
-      <input type="checkbox" id="toggle"/>
-      <div class="menu">
-          <a href="#">Business</a>
-          <a href="#">Services</a>
-          <a href="#">Learn More</a>
-          <a href="#">Free Trial</a>
-      </div>
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <div class="menu">
+            <a href="#">Business</a>
+            <a href="#">Services</a>
+            <a href="#">Learn More</a>
+            <a href="#"><span>Free Trial</span></a>
+        </div>
     </div>
 
     <main class="main">
@@ -57,7 +57,7 @@
     </main>
 
     <footer>
-      <a class="dev" href="#"><p>copyright &copy; PJL Developers 2018</p></a>
+      <p>copyright &copy; PJL Developers 2018</p>
     </footer>
 
     <script type="text/javascript">
