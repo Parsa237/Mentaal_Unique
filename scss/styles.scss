@@ -129,12 +129,15 @@ footer {
   height: 70px;
   line-height: 70px;
   background-color: white;
+  position: fixed;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 .menu {
   text-align: center;
   width: 100%;
   display: none;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
   a {
     clear: right;
     text-decoration: none;
