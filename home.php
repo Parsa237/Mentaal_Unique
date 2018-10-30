@@ -21,6 +21,7 @@
       </div>
     </header>
 
+  <!--NAVIGATION-->
     <div class="nav">
       <label for="toggle">&#9776;</label>
       <input type="checkbox" id="toggle"/>
