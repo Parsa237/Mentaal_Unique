@@ -34,13 +34,23 @@
 
     <main>
       <section class="top_section">
-        <h2>lorem ipsum</h2>
+        <h2>Lorem ipsum</h2>
         <article>
           <img src="../img/groepsfoto.webp" alt="groepsfoto">
         </article>
         <article class="right">
           <h3>Dit zijn wij.</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+      </section>
+
+      <section class="mid_section">
+        <h2>Geschiedenis</h2>
+        <article>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+        <article>
+          <img src="../img/ouderen.jpg" alt="ouderen">
         </article>
       </section>
     </main>
