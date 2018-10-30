@@ -118,3 +118,57 @@ footer {
   text-align: center;
   font-weight: 300;
 }
+
+.nav {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+}
+
+.menu {
+  margin: 0 30px 0 0;
+  a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+  }
+}
+
+span {
+  color: #54D17A;
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: block;
+  width: 26px;
+  float: right;
+  color: white;
+}
+
+#toggle {
+  display: none;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+.menu {
+  text-align: center;
+  width: 100%;
+  display: none;
+  a {
+    display: block;
+    background-color: grey;
+    margin: 0;
+  }
+}
+
+#toggle:checked + .menu {
+  display: block;
+}
