@@ -6,7 +6,33 @@
     <meta name="description" content="danial-website"><!--Website name will be differend soon-->
     <meta name="keywords" content="HTML, CSS, PHP">
     <meta name="viewport" content="width=device-width, initial-scale=1,0">
-    <title>Mentaal Unique | Wie zijn wij</title>
+    <title>Mentaal Unique</title>
     <link href="../scss/.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
   </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="div">
+        <h1 class="h1">Mentaal Unique</h1>
+        <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore et.</p>
+        <a class="button" href="#whatwedo">Wat wij doen</a>
+      </div>
+    </header>
+
+    <!-- NAVIGATION -->
+    <div class="nav">
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle"/>
+      <div class="menu">
+        <a href="#home">Home</a>
+        <a href="wiezijnwij.php">Wie zijn wij</a>
+        <a href="contact.php">Contact</a>
+        <a href="#info">Info</a>
+      </div>
+    </div>
+
+  </body>
+</html>

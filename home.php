@@ -27,7 +27,7 @@
       <input type="checkbox" id="toggle"/>
       <div class="menu">
         <a href="#home">Home</a>
-        <a href="#wiezijnwij">Wie zijn wij</a>
+        <a href="pages/wiezijnwij.php">Wie zijn wij</a>
         <a href="contact.php">Contact</a>
         <a href="#info">Info</a>
       </div>
