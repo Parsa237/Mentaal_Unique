@@ -17,7 +17,7 @@
       <div class="div">
         <h1 class="h1">Mentaal Unique</h1>
         <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore et.</p>
-        <a class="button" href="#whatwedo">Wat we doen</a>
+        <a class="button" href="#whatwedo">Wat wij doen</a>
       </div>
     </header>
 
