@@ -7,8 +7,8 @@ body {
 }
 
 .header {
-  padding-top: 27vh;
-  padding-bottom: 27vh;
+  padding-top: 35vh;
+  padding-bottom: 30vh;
   background-image: url("../img/org.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -117,12 +117,18 @@ footer {
   color: #FFF;
   text-align: center;
   font-weight: 300;
+
+  .dev {
+    text-decoration: none;
+    color: #FFF;
+  }
 }
 
 .nav {
   text-align: right;
   height: 70px;
   line-height: 70px;
+  background-color: white;
 }
 
 .menu {
@@ -130,7 +136,7 @@ footer {
   a {
     clear: right;
     text-decoration: none;
-    color: gray;
+    color: black;
     margin: 0 10px;
     line-height: 70px;
   }
@@ -164,11 +170,12 @@ label {
   display: none;
   a {
     display: block;
-    background-color: grey;
+    background-color: #FFF;
     margin: 0;
   }
 }
 
 #toggle:checked + .menu {
   display: block;
+
 }
