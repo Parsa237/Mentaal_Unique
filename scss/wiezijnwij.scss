@@ -50,7 +50,37 @@ main {
         width: 500px;
         text-align: left;
       }
+
+      p {
+        font-weight: 300;
+      }
     }
+  }
+
+  .mid_section {
+    padding: 5vh 10vw 5vh 10vw;
+    text-align: center;
+
+    h2 {
+      text-align: left;
+      font-size: 30px;
+    }
+
+    article {
+      vertical-align: top;
+      width: 500px;
+      display: inline-block;
+
+      img {
+        width: 400px;
+      }
+
+      p {
+        text-align: left;
+        font-weight: 300;
+      }
+    }
+
   }
 }
 
@@ -66,50 +96,6 @@ main {
       font-size: 30px;
       float: right;
       margin: 10vh 10vw 0 0;
-    }
-  }
-}
-
-// MAIN CONTENT //
-
-.main {
-
-  .whatwedo {
-    width: 100%;
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-
-    h2 {
-      margin-bottom: 50px;
-      font-size: 30px;
-    }
-
-    .articlewhatwedo {
-      width: 25vw;
-      text-align: center;
-      display: inline-block;
-      vertical-align: top;
-      margin: 20px;
-      padding: 20px;
-      border-radius: 10px;
-
-      .fa-cogs {
-        color: #ff7878;
-        font-size: 40px;
-      }
-
-      button {
-        margin-top: 20px;
-        font-family: 'Poppins', sans-serif;
-        border: none;
-        cursor: pointer;
-        padding: 10px 20px 10px 20px;
-        background-color: #ffed00;
-        color: #1a1a1a;
-        border-radius: 4px;
-        font-weight: 800;
-      }
     }
   }
 }
@@ -162,7 +148,7 @@ span {
 }
 
 label {
-  margin: 0 40px 0 0;
+  margin: 0 10vw 0 0;
   font-size: 26px;
   line-height: 70px;
   display: block;
