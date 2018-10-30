@@ -9,7 +9,7 @@ body {
 .header {
   padding-top: 35vh;
   padding-bottom: 30vh;
-  background-image: url("../img/org.png");
+  background-image: url("../img/zorg2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -132,13 +132,22 @@ footer {
 }
 
 .menu {
-  margin: 0 30px 0 0;
+  text-align: center;
+  width: 100%;
+  display: none;
   a {
     clear: right;
     text-decoration: none;
     color: black;
     margin: 0 10px;
     line-height: 70px;
+    display: block;
+    background-color: #FFF;
+    margin: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  a:hover {
+    color:  ;
   }
 }
 
@@ -153,29 +162,17 @@ label {
   display: block;
   width: 26px;
   float: right;
-  color: white;
+  color: #ff7878;
+  display: block;
+  cursor: pointer;
 }
 
 #toggle {
   display: none;
 }
 
-label {
-  display: block;
-  cursor: pointer;
-}
-.menu {
-  text-align: center;
-  width: 100%;
-  display: none;
-  a {
-    display: block;
-    background-color: #FFF;
-    margin: 0;
-  }
-}
+
 
 #toggle:checked + .menu {
   display: block;
-
 }
