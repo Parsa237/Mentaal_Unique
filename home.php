@@ -21,15 +21,16 @@
       </div>
     </header>
 
-    <!-- NAVIGATION -->
-    <nav class="nav">
-      <article class="article">
-        <a class="hamburger" href="pages/nav.php">&#9776;</a>
-      </article>
-      <article>
-        <!-- <a href="#home">Mentaal Unique</a> -->
-      </article>
-    </nav>
+    <div class="nav">
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <div class="menu">
+            <a href="#">Business</a>
+            <a href="#">Services</a>
+            <a href="#">Learn More</a>
+            <a href="#"><span>Free Trial</span></a>
+        </div>
+    </div>
 
     <main class="main">
       <section id="whatwedo" class="whatwedo">
