@@ -21,14 +21,15 @@
       </div>
     </header>
 
-  <!--NAVIGATION-->
+    <!-- NAVIGATION -->
     <div class="nav">
       <label for="toggle">&#9776;</label>
       <input type="checkbox" id="toggle"/>
       <div class="menu">
-          <a href="#">Wie zijn wij</a>
-          <a href="contact.php">Contact</a>
-          <a href="#">Info</a>
+        <a href="#">Home</a>
+        <a href="#">Wie zijn wij</a>
+        <a href="contact.php">Contact</a>
+        <a href="#">Info</a>
       </div>
     </div>
 
