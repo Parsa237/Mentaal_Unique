@@ -7,51 +7,69 @@
     <meta name="keywords" content="HTML, CSS, PHP">
     <meta name="viewport" content="width=device-width, initial-scale=1,0">
     <title>Mentaal Unique</title>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="scss/styles.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
   </head>
   <body>
 
     <!-- HEADER -->
-    <header>
-      <div>
-        <h1>Mentaal Unique</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore et.</p>
-        <button type="button" name="button">lorem ipsum</button>
+    <header class="header">
+      <div class="div">
+        <h1 class="h1">Mentaal Unique</h1>
+        <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore et.</p>
+        <a class="button" href="#whatwedo">Wat we doen</a>
       </div>
     </header>
 
     <!-- NAVIGATION -->
-    <nav>
-      <article>
-        <a id="hamburger" href="#">&#9776;</a>
+    <nav class="nav">
+      <article class="article">
+        <a class="hamburger" href="pages/nav.php">&#9776;</a>
       </article>
       <article>
         <!-- <a href="#home">Mentaal Unique</a> -->
       </article>
     </nav>
 
-    <main>
-      <section id="whatwedo">
-        <h2>Wat wij doen</h2>
-        <article>
+    <main class="main">
+      <section id="whatwedo" class="whatwedo">
+        <h2 class="h2">Wat wij doen</h2>
+        <article class="articlewhatwedo">
           <i class="fas fa-cogs"></i>
           <h3>lorem ipsum</h3>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-          <button type="button" name="button"></button>
+          <button type="button" name="button">Read more</button>
         </article>
-        <article>
+        <article class="articlewhatwedo">
           <i class="fas fa-cogs"></i>
           <h3>lorem ipsum</h3>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          <button type="button" name="button">Read more</button>
         </article>
-        <article>
+        <article class="articlewhatwedo">
           <i class="fas fa-cogs"></i>
           <h3>lorem ipsum</h3>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          <button type="button" name="button">Read more</button>
         </article>
       </section>
     </main>
+
+    <footer>
+      <p>copyright &copy; PJL Developers 2018</p>
+    </footer>
+
+    <script type="text/javascript">
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+              e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+          });
+        });
+    </script>
 
   </body>
 </html>
