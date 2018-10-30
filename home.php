@@ -28,7 +28,7 @@
       <div class="menu">
         <a href="home.php">Home</a>
         <a href="pages/wiezijnwij.php">Wie zijn wij</a>
-        <a href="contact.php">Contact</a>
+        <a href="pages/contact.php">Contact</a>
         <a href="#info">Info</a>
       </div>
     </div>
