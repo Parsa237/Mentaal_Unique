@@ -25,10 +25,9 @@
       <label for="toggle">&#9776;</label>
       <input type="checkbox" id="toggle"/>
       <div class="menu">
-          <a href="#">Business</a>
-          <a href="#">Services</a>
-          <a href="#">Learn More</a>
-          <a href="#">Free Trial</a>
+          <a href="#">Wie zijn wij</a>
+          <a href="#">Contact</a>
+          <a href="#">Info</a>
       </div>
     </div>
 
