@@ -5,16 +5,17 @@
     private $achternaam = $_POST["achternaam"];
     private $email = $_POST["email"];
 
-    public function CheckValues($voornaam, $achternaam, $email){
-      if(empty($this->voornaam){
+    public function __contruct($voornaam, $achternaam, $email){
+      if(empty($this->voornaam)){
         echo "U moet uw voornaam invullen";
-      }elseif($this->achternaam){
+      }elseif(empty($this->achternaam)){
         echo "U moet uw achternaam invullen";
-      }elseif($this->email){
+      }elseif(empty($this->email)){
         echo "U moet uw email invullen";
       }
     }
   }
+
 ?>
 <html lang="en" dir="ltr">
 <head>
