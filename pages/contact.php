@@ -1,16 +1,18 @@
 <?php
 //This PHP is temporary
   class UserForm{
-
+    //Making properties to later use
     private $Vvoornaam;
     private $Vachternaam;
     private $Vemail;
 
     public function __contruct($Vvoornaam, $Vachternaam, $Vemail){
-
+//Giving the properties a value
       $this->Vvoornaam = $_POST["voornaam"];
       $this->Vachternaam = $_POST["achternaam"];
       $this->Vemail = $_POST["email"];
+//Checking if a message has been posted yes or no. If yes, then execute the code from line 18 to 36
+      if($_SERVER['REQUEST_METHOD'] == 'post'){
 
       if(isset($_POST["submit"])){
 
@@ -27,7 +29,10 @@
         echo "U moet uw email invullen";
       }
     }
-
+//Als de message niet posted is. Echo dan dat er iets fout is gegaan en return.
+  }else{
+    echo "Er is iets fout gegaan...";
+    return;
   }
   }
 
