@@ -1,3 +1,12 @@
+<?php
+  class UserForm{
+    $_POST["voornaam"] = private $voornaam;
+    $_POST["achternaam"] = private $achternaam;
+    $_POST["email"] = private $email;
+    public function CheckValues(){
+    }
+  }
+?>
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
