@@ -27,7 +27,7 @@
       <div class="menu">
         <a href="home.php">Home</a>
         <a href="wiezijnwij.php">Wie zijn wij</a>
-        <a href="pages/contact.php">Contact</a>
+        <a href="../pages/contact.php">Contact</a>
         <a href="#info">Info</a>
       </div>
     </div>
@@ -54,6 +54,10 @@
         </article>
       </section>
     </main>
+
+    <footer>
+      <a class="dev" href="#"><p>copyright &copy; PJL Developers 2018</p></a>
+    </footer>
 
   </body>
 </html>
