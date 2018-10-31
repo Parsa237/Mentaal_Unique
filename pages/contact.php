@@ -6,7 +6,7 @@
     private $email = $_POST["email"];
 
     public function __contruct($voornaam, $achternaam, $email){
-      if(empty($this->voornaam\))
+      if(empty($this->voornaam))
       {
         echo "U moet uw voornaam invullen";
       }
