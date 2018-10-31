@@ -2,11 +2,15 @@
 //This PHP is temporary
   class UserForm{
 
+    private $voornaam;
+    private $achternaam;
+    private $email;
+
     public function __contruct($voornaam, $achternaam, $email){
 
-      $voornaam = $_POST["voornaam"];
-      $achternaam = $_POST["achternaam"];
-      $email = $_POST["email"];
+      $this->voornaam = $_POST["voornaam"];
+      $this->achternaam = $_POST["achternaam"];
+      $this->email = $_POST["email"];
 
       if(empty($this->voornaam))
       {
