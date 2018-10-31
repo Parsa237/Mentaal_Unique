@@ -6,11 +6,13 @@
     private $Vachternaam;
     private $Vemail;
 
-    public function __contruct($voornaam, $achternaam, $email){
+    public function __contruct($Vvoornaam, $Vachternaam, $Vemail){
 
       $this->Vvoornaam = $_POST["voornaam"];
       $this->Vachternaam = $_POST["achternaam"];
       $this->Vemail = $_POST["email"];
+
+      if(isset($_POST["submit"])){
 
       if(empty($this->voornaam))
       {
@@ -25,6 +27,8 @@
         echo "U moet uw email invullen";
       }
     }
+
+  }
   }
 
 ?>
