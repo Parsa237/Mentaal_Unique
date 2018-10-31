@@ -1,9 +1,10 @@
 <?php
+//This PHP is temporary
   class UserForm{
-    $_POST["voornaam"] = private $voornaam;
-    $_POST["achternaam"] = private $achternaam;
-    $_POST["email"] = private $email;
-    
+    private $voornaam = $_POST["voornaam"];
+    private $achternaam = $_POST["achternaam"];
+    private $email = $_POST["email"];
+
     public function CheckValues($voornaam, $achternaam, $email){
       if(empty($this->voornaam){
         echo "U moet uw voornaam invullen";
