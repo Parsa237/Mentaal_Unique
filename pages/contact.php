@@ -3,7 +3,15 @@
     $_POST["voornaam"] = private $voornaam;
     $_POST["achternaam"] = private $achternaam;
     $_POST["email"] = private $email;
-    public function CheckValues(){
+    
+    public function CheckValues($voornaam, $achternaam, $email){
+      if(empty($this->voornaam){
+        echo "U moet uw voornaam invullen";
+      }elseif($this->achternaam){
+        echo "U moet uw achternaam invullen";
+      }elseif($this->email){
+        echo "U moet uw email invullen";
+      }
     }
   }
 ?>
