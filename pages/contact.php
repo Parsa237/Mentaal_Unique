@@ -6,36 +6,35 @@
     private $Vachternaam;
     private $Vemail;
 
-    public function __contruct($Vvoornaam, $Vachternaam, $Vemail){
+    public function __contruct($Vvoornaam, $Vachternaam, $Vemail) {
+
 //Giving the properties a value
+
       $this->Vvoornaam = $_POST["voornaam"];
       $this->Vachternaam = $_POST["achternaam"];
       $this->Vemail = $_POST["email"];
+
 //Checking if a message has been posted yes or no. If yes, then execute the code from line 18 to 36
-      if($_SERVER['REQUEST_METHOD'] == 'post'){
 
-      if(isset($_POST["submit"])){
+      if(isset($_POST["submit"])) {
+        if($_SERVER["REQUEST_METHOD"] == "post") {
 
-      if(empty($this->voornaam))
-      {
-        echo "U moet uw voornaam invullen";
+        if(empty($this->Vvoornaam)) {
+          echo "U moet uw voornaam invullen";
+        }
+        else if(empty($this->Vachternaam)) {
+          echo "U moet uw achternaam invullen";
+        }
+        else if(empty($this->Vemail)) {
+          echo "U moet uw email invullen";
+        }
+
+        }
       }
-      elseif(empty($this->achternaam))
-      {
-        echo "U moet uw achternaam invullen";
-      }
-      elseif(empty($this->email))
-      {
-        echo "U moet uw email invullen";
-      }
+
     }
-//Als de message niet posted is. Echo dan dat er iets fout is gegaan en return.
-  }else{
-    echo "Er is iets fout gegaan...";
-    return;
   }
-  }
-  }
+  
   
 ?>
 <html lang="en" dir="ltr">
@@ -66,6 +65,7 @@
 
     <!--FORM, DESIGN WILL LATER BE IMPLEMENTED-->
     <!--DO NOT CHANGE THE NAME ID'S OR TYPES-->
+    <form  method="post" action="contact.php">
     Voornaam:
     <br>
     <input type="text" name="voornaam" id="voornaam" placeholder="voornaam"><!--PLACEHOLDER CAN BE CHANGED-->
@@ -83,5 +83,5 @@
     <textarea name="bericht" id="bericht" cols="30" rows="10"></textarea>
     <br>
     <input type="submit" name="submit" id="submit" value="verzend!">
-
+    </form>
 </html>
