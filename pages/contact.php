@@ -20,28 +20,14 @@
 
     //Checking if a message has been posted yes or no. If yes, then execute the code from line 21 to 41
 
-    if($_SERVER["REQUEST_METHOD"] == "post") {
-      if(isset($_POST["submit"])) {
+    if(isset($_POST["submit"]) && $_SERVER["REQUEST_METHOD"] == "post") {
 
-      if(empty($this->Vvoornaam)) {
-        echo "U moet uw voornaam invullen";
+      if(empty($this->Vvoornaam) || empty($this->Vachternaam) || empty($this->Vemail)) {
+        echo "U moet nog al uw gegevens invullen";
       }
-      else if(empty($this->Vachternaam)) {
-        echo "U moet uw achternaam invullen";
       }
-      else if(empty($this->Vemail)) {
-        echo "U moet uw email invullen";
-      }
-
-      }
-    }else{
-      die(var_dump($_POST));
     }
-
     }
-
-  }
-
   
 ?>
 <html lang="en" dir="ltr">
