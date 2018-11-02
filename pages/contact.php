@@ -18,10 +18,10 @@
 
     public function Index() {
 
-    //Checking if a message has been posted yes or no. If yes, then execute the code from line 18 to 36
+    //Checking if a message has been posted yes or no. If yes, then execute the code from line 21 to 41
 
-    if(isset($_POST["submit"])) {
-      if($_SERVER["REQUEST_METHOD"] == "post") {
+    if($_SERVER["REQUEST_METHOD"] == "post") {
+      if(isset($_POST["submit"])) {
 
       if(empty($this->Vvoornaam)) {
         echo "U moet uw voornaam invullen";
@@ -34,6 +34,8 @@
       }
 
       }
+    }else{
+      die(var_dump($_POST));
     }
 
     }
@@ -72,6 +74,7 @@
         <a href="#info">Info</a>
       </div>
     </div>
+    
 
     <!--FORM, DESIGN WILL LATER BE IMPLEMENTED-->
     <!--DO NOT CHANGE THE NAME ID'S OR TYPES-->
