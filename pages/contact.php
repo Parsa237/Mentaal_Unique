@@ -1,4 +1,5 @@
 <?php
+
 //This PHP is temporary
   class UserForm{
     //Making properties to later use
@@ -6,35 +7,39 @@
     private $Vachternaam;
     private $Vemail;
 
-    public function __contruct($Vvoornaam, $Vachternaam, $Vemail) {
+    public function __contruct() {
 
-//Giving the properties a value
+    //Giving the properties a value
 
-      $this->Vvoornaam = $_POST["voornaam"];
-      $this->Vachternaam = $_POST["achternaam"];
-      $this->Vemail = $_POST["email"];
+    $this->Vvoornaam = $_POST["voornaam"];
+    $this->Vachternaam = $_POST["achternaam"];
+    $this->Vemail = $_POST["email"];
+    }
 
-//Checking if a message has been posted yes or no. If yes, then execute the code from line 18 to 36
+    public function Index() {
 
-      if(isset($_POST["submit"])) {
-        if($_SERVER["REQUEST_METHOD"] == "post") {
+    //Checking if a message has been posted yes or no. If yes, then execute the code from line 18 to 36
 
-        if(empty($this->Vvoornaam)) {
-          echo "U moet uw voornaam invullen";
-        }
-        else if(empty($this->Vachternaam)) {
-          echo "U moet uw achternaam invullen";
-        }
-        else if(empty($this->Vemail)) {
-          echo "U moet uw email invullen";
-        }
+    if(isset($_POST["submit"])) {
+      if($_SERVER["REQUEST_METHOD"] == "post") {
 
-        }
+      if(empty($this->Vvoornaam)) {
+        echo "U moet uw voornaam invullen";
+      }
+      else if(empty($this->Vachternaam)) {
+        echo "U moet uw achternaam invullen";
+      }
+      else if(empty($this->Vemail)) {
+        echo "U moet uw email invullen";
       }
 
+      }
     }
+
+    }
+
   }
-  
+
   
 ?>
 <html lang="en" dir="ltr">
@@ -49,6 +54,11 @@
   <!--Deze link kan ook worden gebruikt inplaats van de bovenste: <link href="../scss/wiezijnwij.min.css" rel="stylesheet" type="text/css">-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 </head>
+<body>
+<?php 
+  $userForm = new UserForm();
+  $userForm->Index();
+?>
 
 <!--TEMPORARY NAVIGATION JULIAN WILL CHANGE THIS IF NESSECARY-->
 <!-- NAVIGATION -->
@@ -84,4 +94,5 @@
     <br>
     <input type="submit" name="submit" id="submit" value="verzend!">
     </form>
+    </body>
 </html>
