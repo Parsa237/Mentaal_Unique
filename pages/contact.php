@@ -1,7 +1,5 @@
 <?php
-
-//This PHP is temporary
-  class UserForm{
+  class UserForm {
     //Making properties to later use
     private $Vvoornaam;
     private $Vachternaam;
@@ -22,13 +20,15 @@
 
     public function Index() {
 
-    //Checking if a message has been posted yes or no. If yes, then execute the code from line 21 to 41
-
-    if (isset($this->Bsubmit) && empty($this->Vvoornaam) || empty($this->Vachternaam) || empty($this->Vemail) || empty($this->Vbericht)) {
-      echo "U moet nog al uw gegevens invullen";
+//validating the email
+    if (!isset($this->Bsubmit) && empty($this->Vvoornaam) || empty($this->Vachternaam) || empty($this->Vemail) || empty($this->Vbericht)) {
+      echo "U bent iets vergeten in te vullen";
+      }else if(!filter_var($this->Vemail, FILTER_VALIDATE_EMAIL)) {
+        echo "Uw email is onjuist";
       }
     }
   }
+  
   if ($_SERVER['REQUEST_METHOD'] === 'POST') { 
     $userForm = new UserForm(); $userForm->Index(); 
   }
