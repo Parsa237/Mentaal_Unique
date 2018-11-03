@@ -22,7 +22,7 @@
 
     if(isset($_POST["submit"]) && $_SERVER["REQUEST_METHOD"] == "post") {
 
-      if(empty($this->Vvoornaam) || empty($this->Vachternaam) || empty($this->Vemail)) {
+      if(!empty($this->Vvoornaam) || !empty($this->Vachternaam) || !empty($this->Vemail)) {
         echo "U moet nog al uw gegevens invullen";
       }
       }
