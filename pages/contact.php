@@ -6,35 +6,39 @@
     private $Vvoornaam;
     private $Vachternaam;
     private $Vemail;
+    private $Vbericht;
+    private $Bsubmit;
 
-    public function __contruct() {
+    public function __construct() {
 
     //Giving the properties a value
 
-    $this->Vvoornaam = $_POST["voornaam"];
-    $this->Vachternaam = $_POST["achternaam"];
-    $this->Vemail = $_POST["email"];
+      $this->Vvoornaam = $_POST["voornaam"];
+      $this->Vachternaam = $_POST["achternaam"];
+      $this->Vemail = $_POST["email"];
+      $this->Vbericht = $_POST["bericht"];
+      $this->Bsubmit = $_POST["submit"];
     }
 
     public function Index() {
 
     //Checking if a message has been posted yes or no. If yes, then execute the code from line 21 to 41
 
-    if(isset($_POST["submit"]) && $_SERVER["REQUEST_METHOD"] == "post") {
-
-      if(!empty($this->Vvoornaam) || !empty($this->Vachternaam) || !empty($this->Vemail)) {
-        echo "U moet nog al uw gegevens invullen";
-      }
+    if(isset($_POST["submit"]) && $this->Vvoornaam =='' || $this->Vachternaam=='' || $this->Vemail=='' || $this->$Vbericht==''){
+      echo "Alle velden moeten ingevuld zijn";
+      }else{
+      echo "Alles is gevuld";
       }
     }
     }
-  
+    $userForm = new UserForm();
+    $userForm->Index();
 ?>
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
   <meta name="author" content="P. Gholamhossein, J. Houwaart, L. Meijles">
-  <meta name="description" content="danial-website"><!--Website name will be differend soon-->
+  <meta name="description" content="Mentaal-Unique">
   <meta name="keywords" content="HTML, CSS, PHP">
   <meta name="viewport" content="width=device-width, initial-scale=1,0">
   <title>Mentaal Unique</title>
@@ -43,10 +47,6 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 </head>
 <body>
-<?php 
-  $userForm = new UserForm();
-  $userForm->Index();
-?>
 
 <!--TEMPORARY NAVIGATION JULIAN WILL CHANGE THIS IF NESSECARY-->
 <!-- NAVIGATION -->

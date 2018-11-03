@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="author" content="P. Gholamhossein, J. Houwaart, L. Meijles">
-    <meta name="description" content="danial-website"><!--Website name will be differend soon-->
+    <meta name="description" content="Mentaal-Unique">
     <meta name="keywords" content="HTML, CSS, PHP">
     <meta name="viewport" content="width=device-width, initial-scale=1,0">
     <title>Mentaal Unique</title>
