@@ -24,15 +24,14 @@
 
     //Checking if a message has been posted yes or no. If yes, then execute the code from line 21 to 41
 
-    if(isset($_POST["submit"]) && $this->Vvoornaam =='' || $this->Vachternaam=='' || $this->Vemail=='' || $this->$Vbericht==''){
-      echo "Alle velden moeten ingevuld zijn";
-      }else{
-      echo "Alles is gevuld";
+    if (isset($this->Bsubmit) && empty($this->Vvoornaam) || empty($this->Vachternaam) || empty($this->Vemail) || empty($this->Vbericht)) {
+      echo "U moet nog al uw gegevens invullen";
       }
     }
-    }
-    $userForm = new UserForm();
-    $userForm->Index();
+  }
+  if ($_SERVER['REQUEST_METHOD'] === 'POST') { 
+    $userForm = new UserForm(); $userForm->Index(); 
+  }
 ?>
 <html lang="en" dir="ltr">
 <head>
