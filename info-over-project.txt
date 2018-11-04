@@ -7,7 +7,7 @@ Ik heb denk ik nu wel genoeg verteld, dus laten we beginnen!
 
 De frontend
 
-Het project "Danial website" is vernoemd naar de onze klant Danial. Danial vroeg de creator laatst of hij een website voor hem in elkaar 
+Het project "Danial website" is vernoemd naar onze klant Danial. Danial vroeg de creator laatst of hij een website voor hem in elkaar 
 wou gaan zetten. De creator heeft uiteindelijk een team opgesteld met mensen waarvan hij denkt dat ze goede programmeurs en vrienden zijn.
 Zorg ervoor dat je je best doet, maar nog belangrijker: heb lol! Danial wilt een website dat te maken heeft met de sociale zorg. De website
 is voor zijn bedrijf, Mental Unique. Omdat de website te maken heeft met de sociale zorg, heeft onze creator onze front-end developer Julian
