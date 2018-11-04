@@ -30,7 +30,8 @@
         $message = $_POST["bericht"];
         $txt = "U heeft een bericht ontvangen van".$Vvoornaam." ".$Vachternaam;
 
-        
+        mail($mailto, $message, $txt);
+        echo "Email verstuurd!";
       }
     }
   }
@@ -78,7 +79,7 @@
     <br>
     <input type="text" name="achternaam" id="achternaam" placeholder="achternaam">
     <br>
-    Email:
+    Uw Email:
     <br>
     <input type="text" name="email" id="email" placeholder="email">
     <br>
