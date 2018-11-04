@@ -20,7 +20,7 @@
 
     public function Index() {
 
-//validating the email
+//validating the inputs and email
     if (!isset($this->Bsubmit) && empty($this->Vvoornaam) || empty($this->Vachternaam) || empty($this->Vemail) || empty($this->Vbericht)) {
       echo "U bent iets vergeten in te vullen";
       }else if(!filter_var($this->Vemail, FILTER_VALIDATE_EMAIL)) {
