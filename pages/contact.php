@@ -25,6 +25,12 @@
       echo "U bent iets vergeten in te vullen";
       }else if(!filter_var($this->Vemail, FILTER_VALIDATE_EMAIL)) {
         echo "Uw email is onjuist";
+      }else{
+        $mailto = "Parsadecoole@gmail.com";
+        $message = $_POST["bericht"];
+        $txt = "U heeft een bericht ontvangen van".$Vvoornaam." ".$Vachternaam;
+
+        
       }
     }
   }
