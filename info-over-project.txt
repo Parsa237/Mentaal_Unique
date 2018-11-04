@@ -1,0 +1,53 @@
+Welkom!
+
+Wat fijn dat je hier langs bent gekomen. Als je dit aan het lezen bent, dan betekent dat dat je meedoet met het project "Danial website".
+Dit is het eerste project van PJL Developers en we zijn blij dat je meedoet. Zorg ervoor dat je zorgvuldig leest wat hieronder staat.
+Dit wat je nu leest gaat binnenkort van pas komen. Zie het als je magische gids tijdens het maken van dit project.
+Ik heb denk ik nu wel genoeg verteld, dus laten we beginnen!
+
+De frontend
+
+Het project "Danial website" is vernoemd naar de onze klant Danial. Danial vroeg de creator laatst of hij een website voor hem in elkaar 
+wou gaan zetten. De creator heeft uiteindelijk een team opgesteld met mensen waarvan hij denkt dat ze goede programmeurs en vrienden zijn.
+Zorg ervoor dat je je best doet, maar nog belangrijker: heb lol! Danial wilt een website dat te maken heeft met de sociale zorg. De website
+is voor zijn bedrijf, Mental Unique. Omdat de website te maken heeft met de sociale zorg, heeft onze creator onze front-end developer Julian
+gevraagd of hij een rustgevend design kan gaan maken zodat de website past bij de sociale zorg. De klant heeft ook gevraagd om een strak, simpel
+design (veel plezier met het programmeren Julian!).
+
+De pagina's
+
+De website bestaat uit 4 pagina's:
+-Home
+-Wie zijn wij
+-Contact
+-Info
+
+De backend
+
+De front-end development van deze pagina's zal worden gedaan door onze front-end developer (Julian). De back-end development is heel andere koek.
+De creator heeft de taak als backend developer. Dit betekent dat hij zelf mag kiezen of er nog een back-end developer nodig is. In ons geval, 
+is er nog een backend developer in het team. Liam (door de creator ook wel genoemd: Liyam Shizzleberies). Liam(Liyam) maakt deel uit van ons team.
+Liam(Liyam) zal de creator helpen met het programmeren van de backend van de website. Dat gaat leuk worden. De backend van de website moet ervoor
+zorgen dat de form die op de contact pagina van de website staat, er ook voor zorgt dat de inputs worden nagekeken. Hiervoor is backend
+programmeren nodig. De formulier moet er ook voor kunnen zorgen dat er daadwerkelijk een email wordt gestuurd. Verder moet er nog worden 
+gewerkt aan de beveiliging van de website. Dit is allemaal PHP werk. Onze andere backend developer gaat ervoor zorgen dat de Javascript op de
+website optimaal werkt!
+
+Team:
+
+Parsa Gholamhossein: Projectleider(creator) en backend developer.
+Julian Houwaart: frontend developer
+Liam Meijles: mede-backend developer.
+
+Conclusie:
+
+We willen bij PJL Developers ervoor zorgen dat je een leuke tijd hebt in programmeren, we willen dat je meer leert over programmeren. En dat
+je plezier hebt met je mede teamgenoten. Zorg ervoor dat je ook de wiki van onze Github repository leest voor overige informatie. We hopen dat
+je het op je gemak hebt, je lol hebt, jezelf ontwikkelt, en goed je best doet!
+
+Later,
+
+Parsa Gholamhossein (creator en backend developer)
+
+
+<p>Doe je best</p>
