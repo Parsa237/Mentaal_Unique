@@ -11,8 +11,8 @@ Het project "Danial website" is vernoemd naar onze klant Danial. Danial vroeg de
 wou gaan zetten. De creator heeft uiteindelijk een team opgesteld met mensen waarvan hij denkt dat ze goede programmeurs en vrienden zijn.
 Zorg ervoor dat je je best doet, maar nog belangrijker: heb lol! Danial wilt een website dat te maken heeft met de sociale zorg. De website
 is voor zijn bedrijf, Mental Unique. Omdat de website te maken heeft met de sociale zorg, heeft onze creator onze front-end developer Julian
-gevraagd of hij een rustgevend design kan gaan maken zodat de website past bij de sociale zorg. De klant heeft ook gevraagd om een strak, simpel
-design (veel plezier met het programmeren Julian!).
+gevraagd of hij een rustgevend design kan gaan maken zodat de website past bij de sociale zorg. De klant heeft ook gevraagd om een strak, 
+simpel design (veel plezier met het programmeren Julian!).
 
 De pagina's
 
@@ -33,13 +33,13 @@ programmeren nodig. De formulier moet er ook voor kunnen zorgen dat er daadwerke
 gewerkt aan de beveiliging van de website. Dit is allemaal PHP werk. Onze andere backend developer gaat ervoor zorgen dat de Javascript op de
 website optimaal werkt!
 
-Team:
+Team
 
 Parsa Gholamhossein: Projectleider(creator) en backend developer.
 Julian Houwaart: frontend developer
 Liam Meijles: mede-backend developer.
 
-Conclusie:
+Conclusie
 
 We willen bij PJL Developers ervoor zorgen dat je een leuke tijd hebt in programmeren, we willen dat je meer leert over programmeren. En dat
 je plezier hebt met je mede teamgenoten. Zorg ervoor dat je ook de wiki van onze Github repository leest voor overige informatie. We hopen dat
