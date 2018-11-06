@@ -15,7 +15,6 @@
 
     <!-- HEADER -->
     <header class="header">
-      <button class="cross">&#735;</button>
       <div class="div">
         <h1 class="h1">Mentaal Unique</h1>
         <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore et.</p>
@@ -24,7 +23,7 @@
     </header>
 
     <!-- NAVIGATION -->
-    <!-- <div class="nav">
+    <div class="nav">
       <label class="toggle" for="toggle">&#9776;</label>
       <input type="checkbox" id="toggle"/>
       <div class="menu">
@@ -33,17 +32,6 @@
         <a href="pages/contact.php">Contact</a>
         <a href="#info">Info</a>
       </div>
-    </div> -->
-
-
-    <div class="menu">
-      <ul>
-        <a href="#"><li>LINK ONE</li></a>
-        <a href="#"><li>LINK TWO</li></a>
-        <a href="#"><li>LINK THREE</li></a>
-        <a href="#"><li>LINK FOUR</li></a>
-        <a href="#"><li>LINK FIVE</li></a>
-      </ul>
     </div>
 
     <main class="main">
@@ -69,6 +57,25 @@
         </article>
       </section>
     </main>
+
+    <!-- OTHER HOME PAGE STYLE -->
+
+    <!-- <main class="main">
+
+      <section id="whatwedo" class="whatwedo">
+        <h2 class="h2">Wat wij doen</h2>
+        <section id="first-section">
+          <article>
+            <h3>lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          </article>
+          <article>
+            <i class="fab fa-accessible-icon"></i>
+          </article>
+        </section>
+      </section>
+
+    </main> -->
 
     <footer>
       <a class="dev" href="pages/developers.php"><p>copyright &copy; PJL Developers 2018</p></a>
