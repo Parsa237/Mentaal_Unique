@@ -5,8 +5,9 @@
     <meta name="author" content="J. Houwaart">
     <meta name="description" content="danial-website"><!--Website name will be differend soon-->
     <meta name="keywords" content="HTML, CSS, PHP">
-    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mentaal Unique</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link href="scss/styles.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
   </head>
@@ -14,6 +15,7 @@
 
     <!-- HEADER -->
     <header class="header">
+      <button class="cross">&#735;</button>
       <div class="div">
         <h1 class="h1">Mentaal Unique</h1>
         <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore et.</p>
@@ -22,8 +24,8 @@
     </header>
 
     <!-- NAVIGATION -->
-    <div class="nav">
-      <label for="toggle">&#9776;</label>
+    <!-- <div class="nav">
+      <label class="toggle" for="toggle">&#9776;</label>
       <input type="checkbox" id="toggle"/>
       <div class="menu">
         <a href="home.php">Home</a>
@@ -31,6 +33,17 @@
         <a href="pages/contact.php">Contact</a>
         <a href="#info">Info</a>
       </div>
+    </div> -->
+
+
+    <div class="menu">
+      <ul>
+        <a href="#"><li>LINK ONE</li></a>
+        <a href="#"><li>LINK TWO</li></a>
+        <a href="#"><li>LINK THREE</li></a>
+        <a href="#"><li>LINK FOUR</li></a>
+        <a href="#"><li>LINK FIVE</li></a>
+      </ul>
     </div>
 
     <main class="main">
@@ -58,7 +71,7 @@
     </main>
 
     <footer>
-      <a class="dev" href="#"><p>copyright &copy; PJL Developers 2018</p></a>
+      <a class="dev" href="pages/developers.php"><p>copyright &copy; PJL Developers 2018</p></a>
     </footer>
 
     <script type="text/javascript">

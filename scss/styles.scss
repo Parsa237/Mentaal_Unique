@@ -8,12 +8,13 @@ body {
 
 .header {
   padding-top: 35vh;
-  padding-bottom: 30vh;
-  background-image: url("../img/zorg2.jpg");
+  padding-bottom: 35vh;
+  background-image: url("../img/zorg3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 120, 0.5);
+  // background-color: rgba(214, 198, 149, 0.5);
   background-blend-mode: multiply;
 
   .div {
@@ -106,6 +107,13 @@ body {
         color: #1a1a1a;
         border-radius: 4px;
         font-weight: 800;
+        border: 2px solid #ffed00;
+
+        &:hover {
+          border: 2px solid #ffed00;
+          background: none;
+          transition: .4s;
+        }
       }
     }
   }
