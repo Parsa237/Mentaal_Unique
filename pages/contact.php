@@ -26,11 +26,16 @@
       }else if(!filter_var($this->Vemail, FILTER_VALIDATE_EMAIL)) {
         echo "Uw email is onjuist";
       }else{
+        $Vvoornaam = $_POST["voornaam"];
+        $Vachternaam = $_POST["achternaam"];
+        $Vemail = $_POST["email"];
+
         $mailto = "Parsadecoole@gmail.com";
         $message = $_POST["bericht"];
         $txt = "U heeft een bericht ontvangen van".$Vvoornaam." ".$Vachternaam;
+        $header = "From:".$Vemail;
 
-        mail($mailto, $message, $txt);
+        mail($mailto, $message, $txt, $header);
         echo "Email verstuurd!";
       }
     }
