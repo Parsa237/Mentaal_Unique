@@ -1,4 +1,5 @@
 <?php
+
   class UserForm {
     //Making properties to later use
     private $Vvoornaam;
