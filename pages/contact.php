@@ -28,6 +28,7 @@
       }else if(!filter_var($this->Vemail, FILTER_VALIDATE_EMAIL)) {
         echo "Uw email is onjuist";
       }else{
+        
         $Vvoornaam = $_POST["voornaam"];
         $Vachternaam = $_POST["achternaam"];
         $Vemail = $_POST["email"];
