@@ -1,5 +1,12 @@
 <?php
 
+require_once(dirname. "/includes/PHPMailer-master/src/PHPMailer.php");
+require_once(dirname. "../includes/PHPMailer-master/src/Exception.php");
+require_once(dirname. "../includes/PHPMailer-master/src/SMTP.php");
+
+use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\PHPMailer;
+
   class UserForm {
 //Making properties to later use
 
