@@ -2,6 +2,7 @@
 
   class UserForm {
 //Making properties to later use
+
     private $Vvoornaam;
     private $Vachternaam;
     private $Vemail;
