@@ -1,7 +1,7 @@
 <?php
 
   class UserForm {
-    //Making properties to later use
+//Making properties to later use
     private $Vvoornaam;
     private $Vachternaam;
     private $Vemail;
@@ -10,7 +10,7 @@
 
     public function __construct() {
 
-    //Giving the properties a value
+//Giving the properties a value
 
       $this->Vvoornaam = $_POST["voornaam"];
       $this->Vachternaam = $_POST["achternaam"];
@@ -22,6 +22,7 @@
     public function Index() {
 
 //validating the inputs and email
+
     if (!isset($this->Bsubmit) && empty($this->Vvoornaam) || empty($this->Vachternaam) || empty($this->Vemail) || empty($this->Vbericht)) {
       echo "U bent iets vergeten in te vullen";
       }else if(!filter_var($this->Vemail, FILTER_VALIDATE_EMAIL)) {
@@ -33,7 +34,7 @@
 
         $mailto = "Parsadecoole@gmail.com";
         $message = $_POST["bericht"];
-        $txt = "U heeft een bericht ontvangen van".$Vvoornaam." ".$Vachternaam;
+        $txt = "U heeft een bericht ontvangen van:".$Vvoornaam." ".$Vachternaam;
         $header = "From:".$Vemail;
 
         mail($mailto, $message, $txt, $header);
@@ -43,7 +44,8 @@
   }
   
   if ($_SERVER['REQUEST_METHOD'] === 'POST') { 
-    $userForm = new UserForm(); $userForm->Index(); 
+    $userForm = new UserForm(); 
+    $userForm->Index(); 
   }
 ?>
 <html lang="en" dir="ltr">
