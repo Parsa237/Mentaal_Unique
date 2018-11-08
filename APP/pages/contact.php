@@ -33,6 +33,13 @@
         $Vachternaam = $_POST["achternaam"];
         $Vemail = $_POST["email"];
 
+        $mailto = "Parsadecoole@gmail.com";
+        $message = $_POST["bericht"];
+        $txt = "U heeft een bericht ontvangen van:".$Vvoornaam." ".$Vachternaam;
+        $header = "From:".$Vemail;
+
+        mail($mailto, $message, $txt, $header);
+        echo "Email verstuurd!";
       }
     }
   }
