@@ -1,4 +1,6 @@
-<?php require_once("C:\\xampp\\htdocs\\Jouw eigen projecten\\Danial-website\\Website_klant\\APP\\includes\\contact-form.php"); ?>
+<?php 
+require_once("C:\\xampp\\htdocs\\Jouw eigen projecten\\Danial-website\\Website_klant\\APP\\includes\\contact-form.php"); 
+?>
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
