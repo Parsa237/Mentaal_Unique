@@ -8,7 +8,6 @@ require_once("C:\\xampp\\htdocs\\Jouw eigen projecten\\Danial-website\\Website_k
 require_once("C:\\xampp\\htdocs\\Jouw eigen projecten\\Danial-website\\Website_klant\\APP\\includes\\PHPMailer-master\\src\\SMTP.php");
 
 $MTo = "Parsadecoole@Gmail.com"; //This is were the email needs to be send to
-
 $mail = new PHPMailer;
 $mail->isSMTP();
 $mail->SMTPDebug = 1;

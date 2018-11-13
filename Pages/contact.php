@@ -33,17 +33,17 @@
     <form  method="post" action="contact.php">
     Voornaam:
     <br>
-    <input type="text" name="voornaam" id="voornaam" placeholder="voornaam"><!--PLACEHOLDER CAN BE CHANGED-->
+    <input type="text" name="voornaam" id="voornaam" placeholder="voornaam" autocomplete="off"><!--PLACEHOLDER CAN BE CHANGED-->
     <br>
     <br>
     Achternaam:
     <br>
-    <input type="text" name="achternaam" id="achternaam" placeholder="achternaam">
+    <input type="text" name="achternaam" id="achternaam" placeholder="achternaam" autocomplete="off"><!--autocomplete prevents examples being given-->
     <br>
     <br>
     Uw Email:
     <br>
-    <input type="text" name="email" id="email" placeholder="email">
+    <input type="text" name="email" id="email" placeholder="email" autocomplete="off">
     <br>
     <br>
     Onderwerp:
