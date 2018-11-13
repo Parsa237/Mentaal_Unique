@@ -26,13 +26,13 @@ $mail->Hostname = 'DESKTOP-DN89O2M';
 
 if(!$mail->send()) {
     echo "Email niet verstuurd";
-}else {
+} else {
     echo "Mail verstuurd";
 }
 
-  class UserForm {
+class UserForm {
+  
 //Making properties to later use
-
     private $Vvoornaam;
     private $Vachternaam;
     private $Vemail;
@@ -46,7 +46,6 @@ if(!$mail->send()) {
     public function ValidateValues() {
 
     //Giving the properties a value
-
     $this->Vvoornaam = $_POST["voornaam"];
     $this->Vachternaam = $_POST["achternaam"];
     $this->Vemail = $_POST["email"];
@@ -54,11 +53,11 @@ if(!$mail->send()) {
     $this->Vonderwerpen = $_POST["onderwerpen"];
     $this->Bsubmit = $_POST["submit"];
 
-    //validating the inputs and email
 
+    //validating the inputs and email
     if (!isset($this->Bsubmit) && empty($this->Vvoornaam) || empty($this->Vachternaam) || empty($this->Vemail) || empty($this->Vbericht) || empty($this->Vonderwerp)) {
       echo "U bent iets vergeten in te vullen";
-      }else if(!filter_var($this->Vemail, FILTER_VALIDATE_EMAIL)) {
+      } else if(!filter_var($this->Vemail, FILTER_VALIDATE_EMAIL)) {
         echo "Uw email is onjuist";
       }
     }
