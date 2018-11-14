@@ -37,16 +37,13 @@ require_once("C:\\xampp\\htdocs\\Jouw eigen projecten\\Danial-website\\Website_k
     <br>
     <input type="text" name="voornaam" id="voornaam" placeholder="voornaam" autocomplete="off"><!--PLACEHOLDER CAN BE CHANGED-->
     <br>
-    <br>
     Achternaam:
     <br>
     <input type="text" name="achternaam" id="achternaam" placeholder="achternaam" autocomplete="off"><!--autocomplete prevents examples being given-->
     <br>
-    <br>
     Uw Email:
     <br>
     <input type="text" name="email" id="email" placeholder="email" autocomplete="off">
-    <br>
     <br>
     Onderwerp:
     <br>
@@ -56,7 +53,6 @@ require_once("C:\\xampp\\htdocs\\Jouw eigen projecten\\Danial-website\\Website_k
         <option value="vraag">Vraag</option>
         <option value="overig">Overig</option>
     </select>
-    <br>
     <br>
     Uw bericht:
     <br>
