@@ -19,8 +19,8 @@ $mail->IsHTML(true);
 $mail->Username = "Parsadecoole@Gmail.com";
 $mail->Password = "4H7p_Frubruy";
 $mail->SetFrom("gholamhosseinp929@gmail.com");
-$mail->Subject = $Vonderwerpen;
-$mail->Body = $Vbericht;
+$mail->Subject = "Voorlopig";
+$mail->Body = "Dit is voorlopig";
 $mail->AddAddress($MTo);
 $mail->Hostname = 'DESKTOP-DN89O2M';
 
@@ -31,7 +31,7 @@ if(!$mail->send()) {
 }
 
 class UserForm {
-  
+
 //Making properties to later use
     private $Vvoornaam;
     private $Vachternaam;
