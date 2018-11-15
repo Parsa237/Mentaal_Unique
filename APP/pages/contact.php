@@ -1,6 +1,7 @@
-<?php 
-require_once("C:\\xampp\\htdocs\\Jouw eigen projecten\\Danial-website\\Website_klant\\APP\\includes\\contact-form.php"); 
-?>
+<!-- Includes the contact form -->
+
+<?php require_once('../APP/includes/contact-form.php'); ?>
+
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
@@ -27,7 +28,7 @@ require_once("C:\\xampp\\htdocs\\Jouw eigen projecten\\Danial-website\\Website_k
         <a href="#info">Info</a>
       </div>
     </div>
-    
+
 
     <!--FORM, DESIGN WILL LATER BE IMPLEMENTED-->
     <!--DO NOT CHANGE THE NAME ID'S OR TYPES-->
