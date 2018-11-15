@@ -25,7 +25,7 @@
 
     <!-- NAVIGATION -->
     <div class="nav">
-      <label class="toggle" for="toggle">&#9776;</label>
+      <label class="toggle" for="toggle"><i class="fas fa-bars"></i></label>
       <input type="checkbox" id="toggle"/>
       <div class="menu">
         <a href="home.html">Home</a>
@@ -35,26 +35,33 @@
       </div>
     </div>
 
+
     <main class="main">
       <section id="whatwedo" class="whatwedo">
-        <h2 class="h2">Wat wij doen</h2>
+        <h2 class="h2">Wat ik doe</h2>
         <article class="articlewhatwedo">
-          <i class="fas fa-cogs"></i>
-          <h3>lorem ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-          <button type="button" name="button">Read more</button>
+          <article id="article-content">
+            <i class="fas fa-cogs"></i>
+            <h3>lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            <button type="button" name="button">Read more</button>
+          </article>
         </article>
         <article class="articlewhatwedo">
-          <i class="fas fa-cogs"></i>
-          <h3>lorem ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-          <button type="button" name="button">Read more</button>
+          <article id="article-content">
+            <i class="fas fa-cogs"></i>
+            <h3>lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            <button type="button" name="button">Read more</button>
+          </article>
         </article>
         <article class="articlewhatwedo">
-          <i class="fas fa-cogs"></i>
-          <h3>lorem ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-          <button type="button" name="button">Read more</button>
+          <article id="article-content">
+            <i class="fas fa-cogs"></i>
+            <h3>lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            <button type="button" name="button">Read more</button>
+          </article>
         </article>
       </section>
     </main>
@@ -81,5 +88,21 @@
     <footer>
       <a class="dev" href="pages/developers.php"><p>copyright &copy; PJL Developers 2018</p></a>
     </footer>
+
+    <script>
+
+      $(document).ready(function(){
+          $(window).scroll(function(){
+              if($(window).scrollTop() > $(window).height()){
+                  $(".menu").addClass("navbar--active");
+              }
+
+              else {
+                  $(".menu").removeClass("navbar--active");
+              }
+
+          });
+      });
+    </script>
   </body>
 </html>
