@@ -1,9 +1,0 @@
-Ik (Liam) had het idee om een slideshow functie te maken voor de homepage, en dit is mijn idee hoe ik het wil doen:
-
-Ok dus het lijkt me logisch dat op de homepagina diverse kopjes tekst komen met uitleg over de website, 
-bijv. wat voor bedrijf het is, hoe lang het bedrijf bestaat etc.: diverse onderwerpen die op home komen te staan.
-Mijn plan was om die kopjes in een slideshow te zetten, aangezien dat een stuk aantrekkelijker en klantvriendelijker overkomt.
-dus dan heb je in de body een slideshow voor diverse informatiestukken over de website.
-
-Voor de duidelijkheid: mijn idee is om in de body van de homepage een slideshow te maken voor de diverse kopjes en onderwerpen 
-die op de homepage komen te staan. 
