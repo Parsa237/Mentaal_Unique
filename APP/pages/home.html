@@ -8,9 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mentaal Unique</title>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<<<<<<< HEAD
     <script src="js/slides.js" type="text/javascript"></script>
     <script src="js/home.js" type="text/javascript"></script>
     <link href="Website_klant/scss/styles.min.css" rel="stylesheet" type="text/css">
+=======
+    <script src="js/slides.js"></script>
+    <link href="../../scss/styles.min.css" rel="stylesheet" type="text/css">
+>>>>>>> 05202f0ba442a1812f1a3a2a9e7e0158de51d49b
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
   </head>
   <body onload="bannerSlider()">
@@ -26,7 +31,7 @@
 
     <!-- NAVIGATION -->
     <div class="nav">
-      <label class="toggle" for="toggle">&#9776;</label>
+      <label class="toggle" for="toggle"><i class="fas fa-bars"></i></label>
       <input type="checkbox" id="toggle"/>
       <div class="menu">
         <a href="home.html">Home</a>
@@ -36,26 +41,33 @@
       </div>
     </div>
 
+
     <main class="main">
       <section id="whatwedo" class="whatwedo">
-        <h2 class="h2">Wat wij doen</h2>
+        <h2 class="h2">Wat ik doe</h2>
         <article class="articlewhatwedo">
-          <i class="fas fa-cogs"></i>
-          <h3>lorem ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-          <button type="button" name="button">Read more</button>
+          <article id="article-content">
+            <i class="fas fa-cogs"></i>
+            <h3>lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            <button type="button" name="button">Read more</button>
+          </article>
         </article>
         <article class="articlewhatwedo">
-          <i class="fas fa-cogs"></i>
-          <h3>lorem ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-          <button type="button" name="button">Read more</button>
+          <article id="article-content">
+            <i class="fas fa-cogs"></i>
+            <h3>lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            <button type="button" name="button">Read more</button>
+          </article>
         </article>
         <article class="articlewhatwedo">
-          <i class="fas fa-cogs"></i>
-          <h3>lorem ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-          <button type="button" name="button">Read more</button>
+          <article id="article-content">
+            <i class="fas fa-cogs"></i>
+            <h3>lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            <button type="button" name="button">Read more</button>
+          </article>
         </article>
       </section>
     </main>
@@ -82,5 +94,21 @@
     <footer>
       <a class="dev" href="pages/developers.php"><p>copyright &copy; PJL Developers 2018</p></a>
     </footer>
+
+    <script>
+
+      $(document).ready(function(){
+          $(window).scroll(function(){
+              if($(window).scrollTop() > $(window).height()){
+                  $(".menu").addClass("navbar--active");
+              }
+
+              else {
+                  $(".menu").removeClass("navbar--active");
+              }
+
+          });
+      });
+    </script>
   </body>
 </html>

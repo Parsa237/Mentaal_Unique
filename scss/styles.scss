@@ -68,6 +68,7 @@ body {
   }
 }
 
+
 // MAIN CONTENT //
 
 .main {
@@ -89,8 +90,18 @@ body {
       display: inline-block;
       vertical-align: top;
       margin: 20px;
-      padding: 20px;
+      padding: 45px 20px 45px 20px;
       border-radius: 10px;
+      background-color: #F8F8F8;
+      transform: skewY(-4deg);
+
+      #article-content {
+        transform: skewY(4deg);
+
+        p {
+          font-weight: 300;
+        }
+      }
 
       .fa-cogs {
         color: #ff7878;
