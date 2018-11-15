@@ -1,6 +1,6 @@
 <!-- Includes the contact form -->
 
-<?php require_once('../APP/includes/contact-form.php'); ?>
+<?php require_once('..\\..\\APP\\includes\\contact-form.php'); ?>
 
 <html lang="en" dir="ltr">
 <head>
