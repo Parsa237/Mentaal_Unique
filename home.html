@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="J. Houwaart">
+    <meta name="description" content="danial-website"><!--Website name will be differend soon-->
+    <meta name="keywords" content="HTML, CSS, PHP">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mentaal Unique</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/slides.js"></script>
+    <link href="scss/styles.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  </head>
+  <body onload="bannerSlider()">
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="div">
+        <h1 class="h1">Mentaal Unique</h1>
+        <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore et.</p>
+        <a class="button" href="#whatwedo">Wat wij doen</a>
+      </div>
+    </header>
+
+    <!-- NAVIGATION -->
+    <div class="nav">
+      <label class="toggle" for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle"/>
+      <div class="menu">
+        <a href="home.php">Home</a>
+        <a href="pages/wiezijnwij.php">Wie zijn wij</a>
+        <a href="pages/contact.php">Contact</a>
+        <a href="#info">Info</a>
+      </div>
+    </div>
+
+    <main class="main">
+      <section id="whatwedo" class="whatwedo">
+        <h2 class="h2">Wat wij doen</h2>
+        <article class="articlewhatwedo">
+          <i class="fas fa-cogs"></i>
+          <h3>lorem ipsum</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          <button type="button" name="button">Read more</button>
+        </article>
+        <article class="articlewhatwedo">
+          <i class="fas fa-cogs"></i>
+          <h3>lorem ipsum</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          <button type="button" name="button">Read more</button>
+        </article>
+        <article class="articlewhatwedo">
+          <i class="fas fa-cogs"></i>
+          <h3>lorem ipsum</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          <button type="button" name="button">Read more</button>
+        </article>
+      </section>
+    </main>
+
+    <!-- OTHER HOME PAGE STYLE -->
+
+    <!-- <main class="main">
+
+      <section id="whatwedo" class="whatwedo">
+        <h2 class="h2">Wat wij doen</h2>
+        <section id="first-section">
+          <article>
+            <h3>lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          </article>
+          <article>
+            <i class="fab fa-accessible-icon"></i>
+          </article>
+        </section>
+      </section>
+
+    </main> -->
+
+    <footer>
+      <a class="dev" href="pages/developers.php"><p>copyright &copy; PJL Developers 2018</p></a>
+    </footer>
+
+    <script type="text/javascript">
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+              e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+          });
+        });
+
+        // $(document).ready(function() {
+        //
+        //   var page_url = window.location.href;
+        //
+        //   var page_id = page_url.substring(page_url.lastIndexOf("#") + 1);
+        //
+        //   if (page_url == "whatwedo") {
+        //     $('html, body').animate({
+        //       scrollTop: $('#whatwedo' + page_id).offset().top + 20
+        //     }, 1000);
+        //   } else if (page_id == "whatwedo") {
+        //     $(html, body).animate({
+        //       scrollTop: $('#whatwedo' + page_id).offset().top
+        //     }, 1000);
+        //   }
+        //
+        // });
+
+    </script>
+
+  </body>
+</html>

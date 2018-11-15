@@ -12,9 +12,9 @@ $mail = new PHPMailer;
 $mail->isSMTP();
 $mail->SMTPDebug = 1;
 $mail->SMTPAuth = true;
-$mail->SMTPSecure = 'tls';
+$mail->SMTPSecure = 'tsl';
 $mail->Host = "smtp.gmail.com";
-$mail->Port = 587; //Ports 25, 465 and 587 can be used
+$mail->Port = 465; //Ports 25, 465 and 587 can be used
 $mail->IsHTML(true);
 $mail->Username = "Parsadecoole@Gmail.com";
 $mail->Password = "4H7p_Frubruy";
