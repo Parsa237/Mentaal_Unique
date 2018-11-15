@@ -16,7 +16,7 @@
     <!-- HEADER -->
     <header class="header">
       <div class="div">
-        <h1 class="h1">Wie zijn wij</h1>
+        <h1 class="h1">Wie ben ik</h1>
       </div>
     </header>
 
@@ -25,8 +25,8 @@
       <label for="toggle">&#9776;</label>
       <input type="checkbox" id="toggle"/>
       <div class="menu">
-        <a href="../home.html">Home</a>
-        <a href="wiezijnwij.php">Wie zijn wij</a>
+        <a href="home.html">Home</a>
+        <a href="wiebenik.php">Wie ben ik</a>
         <a href="../pages/contact.php">Contact</a>
         <a href="#info">Info</a>
       </div>
