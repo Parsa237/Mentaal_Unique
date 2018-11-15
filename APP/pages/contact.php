@@ -22,7 +22,7 @@
       <label for="toggle">&#9776;</label>
       <input type="checkbox" id="toggle"/>
       <div class="menu">
-        <a href="home.php">Home</a>
+        <a href="home.html">Home</a>
         <a href="wiebenik.php">Wie ben ik</a>
         <a href="contact.php">Contact</a>
         <a href="#info">Info</a>
