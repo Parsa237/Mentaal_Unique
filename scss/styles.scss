@@ -9,13 +9,14 @@ body {
 .header {
   padding-top: 35vh;
   padding-bottom: 35vh;
-  background-image: url("../img/zorg4.jpg");
+  // background-image: url("../img/zorg4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 120, 0.5);
   // background-color: rgba(214, 198, 149, 0.5);
   background-blend-mode: multiply;
+  transition: background-image 2s ease-in-out;
 
   .div {
     color: #FFF;
