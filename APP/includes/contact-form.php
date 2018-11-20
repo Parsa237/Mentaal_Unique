@@ -12,13 +12,13 @@ $mail = new PHPMailer;
 $mail->isSMTP();
 $mail->SMTPDebug = 1;
 $mail->SMTPAuth = true;
-$mail->SMTPSecure = 'tsl';
+$mail->SMTPSecure = 'tsl'; //You can use tsl and ssl
 $mail->Host = "smtp.gmail.com";
-$mail->Port = 465; //Ports 25, 465 and 587 can be used
+$mail->Port = 587; //Ports 25, 465 and 587 can be used
 $mail->IsHTML(true);
 $mail->Username = "Parsadecoole@Gmail.com";
 $mail->Password = "4H7p_Frubruy";
-$mail->SetFrom("gholamhosseinp929@gmail.com");
+$mail->SetFrom("Parsadecoole@Gmail.com");//Waar de email vanaf wordt gestuurd
 $mail->Subject = "Voorlopig";
 $mail->Body = "Dit is voorlopig";
 $mail->AddAddress($MTo);
