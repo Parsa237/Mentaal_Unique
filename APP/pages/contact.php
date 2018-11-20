@@ -48,7 +48,7 @@
     <br>
     Onderwerp:
     <br>
-    <select name="onderwerpen">
+    <select name="onderwerp">
         <option value="klacht">Klacht</option>
         <option value="feedback">Feedback</option>
         <option value="vraag">Vraag</option>
