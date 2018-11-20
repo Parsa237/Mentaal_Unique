@@ -48,12 +48,7 @@
     <br>
     Onderwerp:
     <br>
-    <select name="onderwerp">
-        <option value="klacht">Klacht</option>
-        <option value="feedback">Feedback</option>
-        <option value="vraag">Vraag</option>
-        <option value="overig">Overig</option>
-    </select>
+    <input type="text" name="onderwerp" id="email" placeholder="Onderwerp" autocomplete="off">
     <br>
     Uw bericht:
     <br>
