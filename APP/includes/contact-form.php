@@ -58,10 +58,10 @@ $mail->Host = "smtp.gmail.com";
 $mail->Port = 587; //Ports 25, 465 and 587 can be used
 $mail->IsHTML(true);
 $mail->Username = "Parsadecoole@Gmail.com";
-$mail->Password = "4H7p_Frubruy";
+$mail->Password = "bMB/]ng4=>#5z*\J";
 $mail->SetFrom("Parsadecoole@Gmail.com");//Waar de email vanaf wordt gestuurd
-$mail->Subject = $_POST["onderwerp"];
-$mail->Body = $_POST["bericht"];
+$mail->Subject = "test";
+$mail->Body = "doe het nou is";
 $mail->AddAddress($MTo);
 
 ?>
