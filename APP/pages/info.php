@@ -21,6 +21,7 @@
     </header>
 
     <!-- NAVIGATION -->
+    <div class="nav">
       <label for="toggle"><i class="fas fa-bars"></i></label>
       <input type="checkbox" id="toggle"/>
       <div class="menu">
