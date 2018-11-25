@@ -9,12 +9,12 @@ body {
 .header {
   padding-top: 35vh;
   padding-bottom: 35vh;
-  // background-image: url("../img/zorg4.jpg");
+  background-image: url("../img/zorg5_f.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 120, 0.5);
-  // background-color: rgba(214, 198, 149, 0.5);
+  background-color: rgba(214, 198, 149, 0.5);
   background-blend-mode: multiply;
   transition: background-image 2s ease-in-out;
 
@@ -37,17 +37,16 @@ body {
       font-family: 'Poppins', sans-serif;
       border: none;
       padding: 10px 20px 10px 20px;
-      background-color: #ffed00;
-      color: #1a1a1a;
+      background-color: #399cd8;
+      color: white;
       border-radius: 4px;
       font-weight: 600;
-      border: 2px solid #ffed00;
+      border: 2px solid #399cd8;
 
       &:hover {
-        transition: .6s;
         background: none;
         color: #FFF;
-        border: 2px solid #ffed00;
+        border: 2px solid #399cd8;
       }
     }
   }
@@ -92,20 +91,16 @@ body {
       vertical-align: top;
       margin: 20px;
       padding: 45px 20px 45px 20px;
-      border-radius: 10px;
+      border-radius: 5px;
       background-color: #F8F8F8;
-      transform: skewY(-4deg);
+      border-bottom: 2px solid #399cd8;
 
-      #article-content {
-        transform: skewY(4deg);
-
-        p {
-          font-weight: 300;
-        }
+      p {
+        font-weight: 300;
       }
 
       .fa-cogs {
-        color: #ff7878;
+        color: #399cd8;
         font-size: 40px;
       }
 
@@ -115,16 +110,16 @@ body {
         border: none;
         cursor: pointer;
         padding: 10px 20px 10px 20px;
-        background-color: #ffed00;
-        color: #1a1a1a;
+        background-color: #399cd8;
+        color: white;
         border-radius: 4px;
         font-weight: 800;
-        border: 2px solid #ffed00;
+        border: 2px solid #399cd8;
 
         &:hover {
-          border: 2px solid #ffed00;
+          border: 2px solid #399cd8;
           background: none;
-          transition: .4s;
+          color: #1a1a1a;
         }
       }
     }
@@ -218,7 +213,7 @@ label {
   display: block;
   width: 26px;
   float: right;
-  color: #ff7878;
+  color: #399cd8;
   display: block;
   cursor: pointer;
 }

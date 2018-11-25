@@ -1,6 +1,6 @@
 <!-- Includes the contact form -->
 
-<?php require_once('..\\..\\APP\\includes\\contact-form.php'); ?>
+<?php require_once('../APP/includes/contact-form.php'); ?>
 
 <html lang="en" dir="ltr">
 <head>
@@ -25,7 +25,7 @@
         <a href="home.html">Home</a>
         <a href="wiebenik.html">Wie ben ik</a>
         <a href="contact.php">Contact</a>
-        <a href="#info">Info</a>
+        <a href="">Info</a>
       </div>
     </div>
 
