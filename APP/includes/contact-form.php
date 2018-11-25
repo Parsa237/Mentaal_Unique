@@ -1,5 +1,29 @@
 <?php
 
+use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\PHPMailer;
+
+require_once("C:\\xampp\\htdocs\\Jouw eigen projecten\\Danial-website\\Website_klant\\APP\\includes\\PHPMailer-master\\src\\PHPMailer.php");
+require_once("C:\\xampp\\htdocs\\Jouw eigen projecten\\Danial-website\\Website_klant\\APP\\includes\\PHPMailer-master\\src\\Exception.php");
+require_once("C:\\xampp\\htdocs\\Jouw eigen projecten\\Danial-website\\Website_klant\\APP\\includes\\PHPMailer-master\\src\\SMTP.php");
+
+$MTo = "Parsadecoole@Gmail.com"; //This is were the email needs to be send to
+$mail = new PHPMailer;
+$mail->isSMTP();
+$mail->SMTPDebug = 1;
+$mail->SMTPAuth = true;
+$mail->SMTPSecure = 'tsl'; //You can use tsl and ssl
+$mail->Host = "smtp.gmail.com";
+$mail->Port = 587; //Ports 25, 465 and 587 can be used
+$mail->IsHTML(true);
+$mail->Username = "Parsadecoole@Gmail.com";
+$mail->Password = "#Ga-4+c+8m^QTBR!?ZeHMg6sW9Jfk%JuksnnZjF7wqNaRAN8QtwD3hsYU2%5mS-2FHUjaxm_rNuW-H*HZz#H+xx&F7MfAJJr6v@R";
+$mail->SetFrom("Parsadecoole@Gmail.com");//Waar de email vanaf wordt gestuurd
+$mail->Subject = "test";
+$mail->Body = "doe het nou is";
+$mail->AddAddress($MTo);
+$mail->Hostname = 'DESKTOP-DN89O2M';
+
 class UserForm {
 
 //Making properties to later use
@@ -39,29 +63,5 @@ class UserForm {
     $userForm = new UserForm(); 
     $userForm->ValidateValues(); 
   }
-
-  
-use PHPMailer\PHPMailer\Exception;
-use PHPMailer\PHPMailer\PHPMailer;
-
-require_once("C:\\xampp\\htdocs\\Jouw eigen projecten\\Danial-website\\Website_klant\\APP\\includes\\PHPMailer-master\\src\\PHPMailer.php");
-require_once("C:\\xampp\\htdocs\\Jouw eigen projecten\\Danial-website\\Website_klant\\APP\\includes\\PHPMailer-master\\src\\Exception.php");
-require_once("C:\\xampp\\htdocs\\Jouw eigen projecten\\Danial-website\\Website_klant\\APP\\includes\\PHPMailer-master\\src\\SMTP.php");
-
-$MTo = "Parsadecoole@Gmail.com"; //This is were the email needs to be send to
-$mail = new PHPMailer;
-$mail->isSMTP();
-$mail->SMTPDebug = 1;
-$mail->SMTPAuth = true;
-$mail->SMTPSecure = 'tsl'; //You can use tsl and ssl
-$mail->Host = "smtp.gmail.com";
-$mail->Port = 587; //Ports 25, 465 and 587 can be used
-$mail->IsHTML(true);
-$mail->Username = "Parsadecoole@Gmail.com";
-$mail->Password = "bMB/]ng4=>#5z*\J";
-$mail->SetFrom("Parsadecoole@Gmail.com");//Waar de email vanaf wordt gestuurd
-$mail->Subject = "test";
-$mail->Body = "doe het nou is";
-$mail->AddAddress($MTo);
 
 ?>
