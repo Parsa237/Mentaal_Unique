@@ -13,9 +13,9 @@ $(function() {
         'background-image',
         backgrounds[current = ++current % backgrounds.length]
         );
-        
+
         setTimeout(nextBackground, 7000);
         }
         setTimeout(nextBackground, 7000);
         header.css('background-image', backgrounds[0]);
-        });
+    });
