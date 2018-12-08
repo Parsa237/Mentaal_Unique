@@ -225,3 +225,13 @@ label {
 #toggle:checked + .menu {
   display: block;
 }
+
+@media screen and (max-width: 1100px) and (min-width: 1px) {
+
+  .article {
+    width: 65%;
+  }
+  .article .articlewhatwedo {
+    margin: 0;
+  }
+}
