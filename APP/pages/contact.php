@@ -1,6 +1,6 @@
 <!-- Includes the contact form -->
 
-
+<p>De push waar je om vroeg.<p>
 
 <html lang="en" dir="ltr">
 <head>
