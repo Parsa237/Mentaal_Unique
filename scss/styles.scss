@@ -31,24 +31,6 @@ body {
       font-weight: 100;
       margin-bottom: 50px;
     }
-
-    .button {
-      text-decoration: none;
-      font-family: 'Poppins', sans-serif;
-      border: none;
-      padding: 10px 20px 10px 20px;
-      background-color: #399cd8;
-      color: white;
-      border-radius: 4px;
-      font-weight: 600;
-      border: 2px solid #399cd8;
-
-      &:hover {
-        background: none;
-        color: #FFF;
-        border: 2px solid #399cd8;
-      }
-    }
   }
 }
 
@@ -71,59 +53,8 @@ body {
 
 // MAIN CONTENT //
 
-.main {
+form {
 
-  .whatwedo {
-    width: 100%;
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-
-    h2 {
-      margin-bottom: 50px;
-      font-size: 30px;
-    }
-
-    .articlewhatwedo {
-      width: 25vw;
-      text-align: center;
-      display: inline-block;
-      vertical-align: top;
-      margin: 20px;
-      padding: 45px 20px 45px 20px;
-      border-radius: 5px;
-      background-color: #F8F8F8;
-      border-bottom: 2px solid #399cd8;
-
-      p {
-        font-weight: 300;
-      }
-
-      .fa-cogs {
-        color: #399cd8;
-        font-size: 40px;
-      }
-
-      button {
-        margin-top: 20px;
-        font-family: 'Poppins', sans-serif;
-        border: none;
-        cursor: pointer;
-        padding: 10px 20px 10px 20px;
-        background-color: #399cd8;
-        color: white;
-        border-radius: 4px;
-        font-weight: 800;
-        border: 2px solid #399cd8;
-
-        &:hover {
-          border: 2px solid #399cd8;
-          background: none;
-          color: #1a1a1a;
-        }
-      }
-    }
-  }
 }
 
 // -- OTHER HOME PAGE STYLE -- //
